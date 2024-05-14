@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #aa4539; /* Blue color */
+            margin-bottom: 30px;
+        }
+
+        .health-info {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #E3F2FD; /* Light blue background */
+        }
+
+        h2 {
+            color: #da5e3f; /* Blue color */
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .stakeholder-info {
+            margin-top: 50px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heart Beat */
+        .heart-rate-details {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #c38118; /* Blue color */
+        }
+
+        /* Oxygen Level Circle */
+        .oxygen-level-circle {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .oxygen-level-circle .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #E3F2FD; /* Light blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .oxygen-level-circle .inner-circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #11406f; /* Dark blue inner circle */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .oxygen-level-circle .percentage {
+            font-size: 24px;
+            color: #fff;
+        }
+
+        /* Blood Pressure */
+        .blood-pressure-bars {
+            margin-bottom: 20px;
+        }
+
+        .blood-pressure-bars .bar {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .blood-pressure-bars .bar .progress {
+            height: 20px;
+            background-color: #1976D2; /* Dark blue color */
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 10px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+
+        /* Sleep Tracking */
+        .sleep-tracking {
+            margin-bottom: 20px;
+        }
+
+        .sleep-tracking ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sleep-tracking ul li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .sleep-tracking ul li img {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+<div class="header">
+    <h1>
+        <img src="redback op.jpeg" class="top-image" alt="redback operation logo" height="200">
+        Health Status
+    </h1>
+</div>
+
+    <div class="topnav">
+    <a href="html copy.html">Homepage</a>
+    <a href="OurServices copy.html">Our services</a>
+    <a href="healthStatus.html">Health status</a>
+    <a href="exploreFeatures.html">Explore features</a>
+    <!-- <a href="#contact">Contact Us</a>
+    <a href="#feedback">Feedback</a> -->
+</div>
+<body>
+    <div class="container">
+        <h1>Health Status</h1>
+        <div class="health-info">
+            <h2>Heart Beat</h2>
+            <div class="heart-rate-details">
+                <p>Current Heart Rate: <strong>80 BPM</strong></p>
+                <p>Normal Range: <strong>60 - 100 BPM</strong></p>
+            </div>
+        </div>
+        <div class="health-info">
+            <h2>Oxygen Level</h2>
+            <div class="oxygen-level-circle">
+                <div class="circle">
+                    <div class="inner-circle">
+                        <span class="percentage">75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="health-info">
+            <h2>Blood Pressure</h2>
+            <div class="blood-pressure-bars">
+                <div class="bar">
+                    <div class="progress" style="width: 70%;">120/80 mmHg</div>
+                </div>
+                <div class="bar">
+                    <div class="progress" style="width: 50%;">80/60 mmHg</div>
+                </div>
+            </div>
+        </div>
+        <div class="health-info">
+            <h2>Sleep Tracking</h2>
+            <div class="sleep-tracking">
+                <ul>
+                    <li><img src="sleep.jpeg" alt="Sleep Icon" width="30">Hours Slept: <strong>7 hours</strong></li>
+                    <li><img src="sleep quality.png" alt="Quality Icon" width="30">Sleep Quality: <strong>Good</strong></li>
+                    <li><img src="stages.jpeg" alt="Stages Icon" width="30">Sleep Stages: <strong>Deep Sleep, REM, Light Sleep</strong></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Stakeholder Details -->
+        <div class="stakeholder-info">
+            <h2>Stakeholder Details</h2>
+            <p><strong>Name:</strong> aaryan</p>
+            <p><strong>Email:</strong> aaryan@example.com</p>
+            <p><strong>Phone:</strong> +1234567890</p>
+            <p><strong>Address:</strong> 123 Street, melbourne, Australia</p>
+        </div>
+    </div>
+</body>
+</html>
